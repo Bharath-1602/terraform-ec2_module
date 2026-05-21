@@ -13,5 +13,5 @@ provider "aws" {
 
 resource "aws_instance" "demo-ec2" {
     ami = var.ami_id
-    instance_type = var.instance_type_1
+    instance_type = var.instance_type
 }
